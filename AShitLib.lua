@@ -5,10 +5,6 @@ else
 	getgenv().RagdollEngine = true
 end
 
-if game:GetService("CoreGui"):FindFirstChild("RagdollShitScript") then
-    game:GetService("CoreGui"):FindFirstChild("RagdollShitScript"):Destroy()
-end
-
 local inputService = game:GetService("UserInputService")
 local tweenService = game:GetService("TweenService")
 local runService = game:GetService("RunService")
